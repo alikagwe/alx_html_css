@@ -75,3 +75,15 @@ main section:first-of-type button {
 main section:first-of-type button:hover {
     background-color: #a855f7;
 }
+section:first-of-type(3) {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+section:first-of-type(3) blockquote {
+  font-style: italic;
+  font-size: 20px;
+  color: #FF6565;
+}
