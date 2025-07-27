@@ -87,3 +87,20 @@ section:first-of-type(3) blockquote {
   font-size: 20px;
   color: #FF6565;
 }
+section:first-of-type(4) {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+section:first-of-type(4) img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section:first-of-type(4) .fa-star {
+  color: gold;
+}
+
