@@ -197,13 +197,13 @@ section.what-we-do > div > div > p {
 .hero-section {
   position: relative;
   width: 100%;
-  min-height: 80vh; /* Adjust height as needed */
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  overflow: hidden; /* Ensure content doesn't overflow */
+  overflow: hidden; 
 }
 
 .hero-background {
