@@ -1,0 +1,65 @@
+.results {
+    background: linear-gradient(to right, rgba(7, 22, 41, 0.8), #071629);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.results-text {
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.results-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.results-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.pentagon-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.pentagon {
+    width: 120px;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 52px 60px;
+    border-color: transparent transparent #FF6565 transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pentagon:after {
+    content: "";
+    position: absolute;
+    top: 52px;
+    left: -60px;
+    width: 0;
+    border-style: solid;
+    border-width: 70px 120px 0 120px;
+    border-color: #FF6565 transparent transparent transparent;
+}
+
+.pentagon .value {
+    position: absolute;
+    top: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.pentagon .label {
+    position: absolute;
+    top: 60px;
+    font-size: 0.8rem;
+}
